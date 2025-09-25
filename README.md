@@ -1,2 +1,4 @@
 # Pomodoro-Timer
-Computer Science 2nd year project
+Hi there
+this was my first project for 2nd year for computer science
+Thank you for your time
