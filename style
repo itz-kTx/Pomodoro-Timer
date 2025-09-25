@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apple {
+    position: relative;
+    text-align: center;
+}
+#timer {
+    font-family: Orbitron, sans-serif;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+#timer:hover {
+    color: yellow;
+}
+#timer.red {
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.buttons button {
+    font-family: Roboto, sans-serif;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+#start {
+    background-color: green;
+}
+#stop {
+    background-color: red;
+}
+#pause {
+    background-color: yellow;
+    color: black;
+}
+.buttons button:hover {
+    border: 2px solid black;
+}
